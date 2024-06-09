@@ -1,0 +1,66 @@
+/* RegisterForm.css */
+
+body {
+    background: linear-gradient(135deg, #5170ff, #ffa3ff);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .gradiente-fondo {
+    padding: 60px;
+    text-align: center;
+  }
+  
+  .bg-white {
+    background: linear-gradient(135deg, #5170ff, #ffa3ff);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 25rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column; /* Añade esta línea para alinear verticalmente */
+    align-items: center; /* Añade esta línea para centrar verticalmente */
+  }
+  
+  .bg-white img {
+    height: 8rem;
+  }
+  
+  .bg-white .fw-bold {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  input::placeholder {
+    font-size: 12px;
+  }
+  input, input::placeholder {
+    font-size: 12px;
+    line-height: 1.8; 
+  }
+  .bg-white input[type="text"],
+.bg-white input[type="date"] {
+  width: calc(80% - 40px);
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f8f9fa;
+  font-size: 12px; 
+  line-height: 1.8; 
+}
+  .bg-white .btn {
+    margin-top: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .footer {
+    margin-top: 20px;
+  }
+  
